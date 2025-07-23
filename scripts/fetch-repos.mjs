@@ -9,15 +9,7 @@ dotenv.config();
 const username = process.env.GH_USERNAME;
 
 const includedRepoNames = [
-  'HackRF-One-for-Windows',
-  'MorphURL',
-  'PetCam',
-  'CafedentialApp',
-  'WhisperTranscriber',
-  'PDF_Shield',
-  'picoCTF_writeup',
-  'CoffeeBeanCart',
-  'E-Course'
+  'Testing1'
 ];
 
 const includedRepoSet = new Set(includedRepoNames);

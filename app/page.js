@@ -14,7 +14,7 @@ export default function Home() {
   const [languageFilter, setLanguageFilter] = useState("");
   const [activeTag, setActiveTag] = useState("");
 
-  const availableTags = ['security','hardware','software','web','mobile','machine-learning'];
+  const availableTags = ['security'];
 
   useEffect(() => {
     fetch('repos.json')
